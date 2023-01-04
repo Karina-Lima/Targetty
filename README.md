@@ -1,8 +1,9 @@
 # Targetty - Guia de Carreira 🎯
 
 <h2>Trabalho de conclusão do curso técnico de informática para a internet</h2>
+🌐: https://targetty.netlify.app/index.html
+<br><br>
 
-<br>
 <b>Visão Geral:</b>
 
 O projeto consiste em uma plataforma que busca auxiliar jovens que acabaram de concluir o ensino médio em suas inserções do mercado de trabalho. A plataforma do Targetty oferece principalmente consultoria de carreira acadêmica e profissional, trazendo testes vocacionais, notas das instituições de ensino, entre outras informações úteis para os jovens nesse etapa de suas vidas. 
