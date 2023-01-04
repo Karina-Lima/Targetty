@@ -1,0 +1,22 @@
+@import '../base/padrao.scss';
+@import '../base/funcoes.scss';
+@import '../global/variables.scss';
+//
+.container {
+    @include container(100%, left);
+}
+
+.column {
+    &.column col-25 {
+        @include column(25%, center);
+    }
+    &.column col-50 {
+        @include column(50%, center);
+    }
+    &.column col-75 {
+        @include column(75%, center);
+    }
+    &.column col-100 {
+        @include column(100%, center);
+    }
+}

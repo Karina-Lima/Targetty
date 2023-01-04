@@ -1,0 +1,112 @@
+// ==================== PÁGINA INDEX ==================== //
+@import '../base/padrao.scss';
+@import '../base/funcoes.scss';
+// CARDS DE SERVIÇOS (INDEX)
+//
+.titulo {
+    @include texto($preto-opa, 2.4em);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.subtitulo {
+    @include texto($preto, 1.4em);
+    font-weight: 400;
+    width: 100%;
+    padding: 1% 10%;
+    text-align: center;
+}
+
+.servicos {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+.servico {
+    display: flex;
+    text-align: justify;
+    width: 100%;
+    border-radius: 7px;
+    margin-top: 3%;
+    &:first-child {
+        margin-top: 9%;
+    }
+    &:last-child {
+        margin-top: 9%;
+        margin-right: 0%!important;
+    }
+    & button {
+        width: 100%;
+        font-size: 3.5em;
+        color: $branco;
+        border-radius: 100%;
+        display: block;
+        text-align: center;
+        margin: 20%;
+        height: 35vh;
+        width: 35vh;
+        border-bottom: solid 1px transparent;
+        & p {
+            color: $branco;
+            font-size: 3vh;
+            font-weight: 500;
+        }
+    }
+}
+
+.inner {
+    padding: 5%;
+    &.inner a {
+        @include texto($branco, 1.9em);
+        font-weight: bold;
+    }
+    &.inner h4 {
+        @include texto($azul, 1.2em);
+        font-weight: 600;
+        margin-top: 0.7%;
+        margin-bottom: 1%;
+    }
+    &.inner p {
+        @include texto($branco, 1em);
+        margin-top: 0;
+    }
+}
+
+//
+// Botão_Topo_da_Página
+//
+.btn_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    background-color: $preto;
+    border: solid 1px $preto;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 300;
+    color: $branco;
+    z-index: 4;
+}
+
+.btn_top:hover {
+    background-color: $preto;
+    border: solid 1px $branco;
+    transition: all ease-in-out 0.2s;
+}
+
+//======================= ELEMENTOS_GERAIS_DA_INDEX ========================//
+@import '../elements/banner.scss';
+@import '../elements/footer.scss';
+@import '../elements/contato.scss';
+@import '../elements/container.scss';
+//================== ESTILIZAÇÃO_DE_OUTROS_COMPONENTES ====================//
+@import '../component/c-dropdown';

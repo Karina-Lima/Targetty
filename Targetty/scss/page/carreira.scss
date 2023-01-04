@@ -1,0 +1,104 @@
+            // ==================== PÁGINA INDEX ==================== //
+            @import '../base/padrao.scss';
+            @import '../base/funcoes.scss';
+            //
+            .div_row {
+                display: block;
+                width: 100%;
+                text-align: left;
+            }
+            
+            .div_right_alternative {
+                float: right;
+                width: 40%;
+                padding-left: 2%;
+            }
+            
+            .div_left_alternative {
+                float: left;
+                width: 60%;
+                padding-left: 10%;
+                a {
+                    font-weight: 500;
+                    font-size: 1.09em;
+                    color: $preto;
+                    &:hover {
+                        color: $magenta;
+                    }
+                }
+            }
+            
+            .border_left_alternative {
+                border-left: solid 3px $magenta;
+            }
+            
+            .links {
+                a {
+                    font-weight: 500;
+                    font-size: 1.1em;
+                    color: $preto;
+                    &:hover {
+                        color: $magenta!important;
+                    }
+                }
+            }
+            
+            .container_iframe {
+                width: 100%;
+                summary:hover {
+                    cursor: pointer;
+                }
+            }
+            
+            .container_profissoes {
+                padding: 0% 10% 5% 10%;
+                width: 100%;
+                float: left;
+                text-align: left;
+                height: auto;
+                background-color: $branco;
+                margin-top: 5%;
+                h1 {
+                    font-weight: 700;
+                    font-size: 1.5em;
+                    color: $magenta;
+                }
+                h2 {
+                    font-weight: 700;
+                    font-size: 1.3em;
+                    color: $magenta;
+                }
+                p {
+                    font-weight: 400;
+                    font-size: 1.1em;
+                    color: $preto;
+                    margin-top: 2%;
+                    line-height: 150%;
+                    a {
+                        color: $preto;
+                        font-weight: 600;
+                        &:hover {
+                            color: $magenta;
+                        }
+                    }
+                    b {
+                        font-weight: 600;
+                        color: $magenta;
+                    }
+                    small {
+                        font-weight: 600;
+                        color: $cinza-medio;
+                        font-size: 0.90em;
+                    }
+                }
+            }
+            
+            //
+            //
+            //======================= ELEMENTOS_GERAIS_DA_INDEX ========================//
+            @import '../elements/banner.scss';
+            @import '../elements/footer.scss';
+            @import '../elements/contato.scss';
+            @import '../elements/container.scss';
+            //================== ESTILIZAÇÃO_DE_OUTROS_COMPONENTES ====================//
+            @import '../component/c-dropdown';

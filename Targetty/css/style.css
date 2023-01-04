@@ -1,0 +1,4183 @@
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  font-weight: 300;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100% !important;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .c-dropdown {
+    overflow: visible;
+    z-index: 1;
+  }
+  .logo_marca {
+    color: transparent;
+    width: 156px;
+    height: 80px;
+    position: absolute;
+    left: 80%;
+    font-size: 0;
+    background: url(../img/logo/Logo-Marca-Gradiente-Clara.png) center center/156px no-repeat;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.titulo {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 2.4em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.subtitulo {
+  color: #000000;
+  font-size: 1.4em;
+  font-weight: 400;
+  width: 100%;
+  padding: 1% 10%;
+  text-align: center;
+}
+
+.servicos {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+}
+
+.servico {
+  display: flex;
+  text-align: justify;
+  width: 100%;
+  border-radius: 7px;
+  margin-top: 3%;
+}
+
+.servico:first-child {
+  margin-top: 9%;
+}
+
+.servico:last-child {
+  margin-top: 9%;
+  margin-right: 0% !important;
+}
+
+.servico button {
+  width: 100%;
+  font-size: 3.5em;
+  color: #ffffff;
+  border-radius: 100%;
+  display: block;
+  text-align: center;
+  margin: 20%;
+  height: 35vh;
+  width: 35vh;
+  border-bottom: solid 1px transparent;
+}
+
+.servico button p {
+  color: #ffffff;
+  font-size: 3vh;
+  font-weight: 500;
+}
+
+.inner {
+  padding: 5%;
+}
+
+.inner.inner a {
+  color: #ffffff;
+  font-size: 1.9em;
+  font-weight: bold;
+}
+
+.inner.inner h4 {
+  color: #00a6d6;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-top: 0.7%;
+  margin-bottom: 1%;
+}
+
+.inner.inner p {
+  color: #ffffff;
+  font-size: 1em;
+  margin-top: 0;
+}
+
+.btn_top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  text-align: center;
+  background-color: #000000;
+  border: solid 1px #000000;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 300;
+  color: #ffffff;
+  z-index: 4;
+}
+
+.btn_top:hover {
+  background-color: #000000;
+  border: solid 1px #ffffff;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+/* Landing-Page (Index.html) */
+.banner {
+  width: 100%;
+  padding: 3% 10%;
+  float: left;
+  width: 100% !important;
+  text-align: center;
+  /*height 100vh*/
+  height: 110vh;
+  height: calc(var(--vh, 1.1vh) * 100);
+  position: relative !important;
+}
+
+.banner.banner h2 {
+  color: #ffffff;
+  font-size: 2.6em;
+  font-weight: 700;
+}
+
+.banner.banner h3 {
+  color: #ffffff;
+  font-size: 1.41em;
+  height: 100%;
+  width: 100%;
+  font-weight: 350;
+}
+
+.banner.banner h3 b {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.banner.banner h3 a {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.banner.banner h3 a:hover {
+  transition: all ease-in-out 0.2s;
+  text-decoration: underline;
+}
+
+.banner.banner div {
+  margin-top: 15%;
+}
+
+.banner_section {
+  width: 100%;
+  padding: 3% 10%;
+  float: left;
+  text-align: center;
+  padding: 0% 0% 0% 0%;
+  /*height 100vh*/
+  height: 110vh;
+  height: calc(var(--vh, 1.1vh) * 100);
+  position: relative !important;
+}
+
+.banner_left {
+  width: 100%;
+  padding: 3% 10%;
+  float: left;
+  display: block;
+  padding: 0% 10%;
+  position: relative !important;
+  width: 55%;
+}
+
+.banner_right {
+  width: 100%;
+  padding: 3% 10%;
+  float: right;
+  display: block;
+  padding: 0% 10%;
+  position: relative !important;
+  width: 45%;
+}
+
+.light_banner {
+  height: 100%;
+  background: linear-gradient(90deg, #ffffff 90%, #323BA3 10%);
+}
+
+.light_banner a {
+  color: #000000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.light_banner a:hover {
+  text-decoration: underline;
+  color: #323BA3;
+  transition: all ease-in-out 0.2s;
+}
+
+.dark_banner {
+  height: 100%;
+  background-color: #000000;
+}
+
+.text_left {
+  text-align: left;
+  float: left;
+  padding-left: 10%;
+  color: #ffffff;
+}
+
+.text_left h1 {
+  font-size: 1.9em;
+  font-weight: 700;
+  margin-top: calc(var(--vh, 1.1vh) * 25);
+}
+
+.text_left p {
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+.text_right {
+  text-align: left;
+  float: left;
+  padding-left: 10%;
+  color: #000000;
+}
+
+.text_right h1 {
+  font-size: 1.9em;
+  font-weight: 700;
+  margin-top: calc(var(--vh, 1.1vh) * 25);
+}
+
+.text_right p {
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+.button_principal {
+  width: 100%;
+  background-color: #000000;
+  border: solid 1px #000000;
+  font-size: 1.25em;
+  border-radius: 8px;
+  border-bottom: solid 1px transparent;
+  padding: 1.3vh 30vh;
+  margin-top: 3vh;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.button_principal:hover {
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.button_banner {
+  width: 100%;
+  background-color: #323BA3;
+  border-bottom: solid 1px transparent;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: center;
+  float: left;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 1vh 0;
+  margin-top: 3vh;
+  color: #ffffff;
+}
+
+.button_banner:hover {
+  border: solid 1px #ffffff !important;
+  background: transparent !important;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+div .title {
+  width: 97%;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+  float: left;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.footer {
+  width: 100%;
+  padding: 3% 10%;
+  float: left;
+  background-color: #000000;
+  text-align: left;
+  /*height 46vh*/
+  height: 46vh;
+  height: calc(var(--vh, 0.46vh) * 100);
+}
+
+.footer div {
+  display: inline-flex;
+  width: 20%;
+}
+
+.footer div:last-child {
+  width: 10%;
+}
+
+.social-icons {
+  margin-top: 0%;
+  text-align: center !important;
+  display: inline-flex !important;
+}
+
+.social-icons.social-icons a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.6em;
+  margin-right: 2%;
+  width: 100%;
+}
+
+.social-icons.social-icons a:last-child {
+  margin-right: 0%;
+}
+
+.social-icons.social-icons a:hover {
+  color: #ffffff;
+  background-color: transparent;
+  transition: ease-in 0.2s;
+}
+
+.link_foo {
+  float: left;
+}
+
+.link_foo p {
+  color: #00a6d6;
+  font-size: 1em;
+  font-weight: 600;
+  text-align: left;
+  float: left;
+}
+
+.sub_link_foo {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.95em;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 1.7em;
+}
+
+.sub_link_foo:hover {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: all ease-in-out 0.2s;
+}
+
+.copyright {
+  width: 100%;
+  margin-top: 2%;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.95em;
+  font-weight: 500;
+  text-align: center !important;
+}
+
+.copyright b {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.contato {
+  width: 100%;
+  padding: 3% 10%;
+  float: left;
+  text-align: center;
+  position: relative !important;
+  background-color: #ffffff;
+  height: 110vh;
+  height: calc(var(--vh, 1.1vh) * 100);
+}
+
+.contato.contato h2 {
+  margin-top: 13%;
+  color: #000000;
+  font-size: 2.3em;
+  font-weight: 700;
+}
+
+.contato.contato h3 {
+  color: #000000;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.contato.contato form {
+  margin-top: 0%;
+}
+
+.contato.contato input {
+  width: 73vh;
+  color: #B9B9B9;
+  font-size: 1.4em;
+  background-color: transparent;
+  padding: 1.2vh 3%;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  border-bottom: solid 1px #B9B9B9;
+}
+
+.contato.contato input:focus {
+  color: #323BA3;
+  border-bottom: solid 1px #323BA3;
+  transition: all ease-in-out 0.2s;
+}
+
+.contato.contato img {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 0px;
+  left: 80%;
+  width: 20%;
+  margin-top: -27.5%;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.container {
+  width: 100%;
+  padding: 3% 10%;
+  float: left;
+}
+
+.column.column col-25 {
+  width: 25%;
+  float: center;
+}
+
+.column.column col-50 {
+  width: 50%;
+  float: center;
+}
+
+.column.column col-75 {
+  width: 75%;
+  float: center;
+}
+
+.column.column col-100 {
+  width: 100%;
+  float: center;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.c-dropdown {
+  color: #ffffff;
+  font-size: 1.09em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  list-style: none;
+  z-index: 1;
+  width: 100%;
+  height: 67px;
+  padding: 0.5% 10%;
+  right: 0;
+  display: flex;
+  position: fixed;
+  background: linear-gradient(180deg, #ffffff 50%, rgba(0, 0, 0, 0.95) 50%);
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.8);
+  border-bottom: solid 1px #000000;
+}
+
+.c-dropdown__item {
+  margin: 0 10px;
+  color: #ffffff;
+  font-size: 1em;
+  position: relative;
+  top: calc(100% - 23px);
+  float: right;
+  font-weight: 400;
+}
+
+.c-dropdown__item:hover {
+  color: #323BA3;
+  cursor: pointer;
+}
+
+.c-dropdown__item:hover .c-dropdown__submenu {
+  opacity: 1;
+  transform: rotateX(0) translateX(-50%);
+  transition-timing-function: ease-out;
+  border-bottom: solid 1px #000000;
+}
+
+.c-dropdown__item-title {
+  display: inline-flex;
+  pointer-events: none;
+}
+
+.c-dropdown__item-title::after {
+  border: rem(5) solid transparent;
+  content: "";
+  margin-left: rem(5);
+  transform: translateY(rem(8));
+}
+
+.c-dropdown__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.c-dropdown__link:hover {
+  text-decoration: underline;
+  color: #00a6d6;
+  transition: all ease-in-out 0.2s;
+}
+
+.c-dropdown p {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.c-dropdown p:hover {
+  text-decoration: underline;
+  color: #00a6d6;
+  transition: all ease-in-out 0.2s;
+}
+
+.c-dropdown__submenu {
+  background-color: rgba(0, 0, 0, 0.95);
+  border-radius: 0 0 8px 8px;
+  left: 148%;
+  list-style: none;
+  margin: 0;
+  opacity: 0.25;
+  padding: 1.29em;
+  position: absolute;
+  top: calc(100% - 1.3em);
+  border-top: solid 1px rgba(0, 0, 0, 0.9);
+  transform-origin: top center;
+  transform: translateX(-50%) rotateX(-90deg);
+  transition: all 200ms ease-in;
+  width: 350%;
+  height: auto;
+}
+
+.c-dropdown__submenu::after {
+  content: "";
+  position: absolute;
+  transform: translateX(-100%);
+}
+
+.c-dropdown__submenu-item {
+  text-align: left;
+}
+
+.c-dropdown__submenu-item:first-child {
+  margin-top: -10px;
+}
+
+.c-dropdown__submenu-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.c-dropdown__submenu-link {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.c-dropdown__submenu-link:hover {
+  text-decoration: underline;
+  color: #00a6d6;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.image_principal {
+  height: 100%;
+  height: calc(var(--vh, 1.1vh) * 100);
+  position: relative !important;
+  background: fixed no-repeat;
+}
+
+.border_left {
+  border-left: solid 4px #323BA3;
+}
+
+.container_paragrafo {
+  padding: 5% 0%;
+  width: 100%;
+  float: left;
+  text-align: left;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.container_paragrafo h3 {
+  font-weight: 700;
+  font-size: 1em;
+  color: #323BA3;
+}
+
+.container_paragrafo h1 {
+  font-weight: 600;
+  font-size: 1.8em;
+  color: #000000;
+}
+
+.container_paragrafo h2 {
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #323BA3;
+}
+
+.container_paragrafo p {
+  font-weight: 500;
+  font-size: 1.1em;
+  line-height: 150%;
+  color: #000000;
+  margin-top: 2%;
+}
+
+.div_right {
+  margin-left: -2%;
+  padding-left: 2%;
+  padding-right: 8%;
+  float: right;
+  width: 58%;
+}
+
+.div_right a {
+  font-weight: 500;
+  font-size: 1.09em;
+  color: #000000;
+}
+
+.div_right a:hover {
+  color: #323BA3;
+}
+
+.div_left {
+  float: left;
+  width: 42%;
+  border: none !important;
+}
+
+.div_row {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.div_row_25 {
+  display: flex;
+  width: 100%;
+}
+
+.row_25_light {
+  width: 25%;
+  background-color: #323BA3;
+  text-align: center;
+  padding: 2.5%;
+  margin-top: 2em;
+}
+
+.row_25_light h3 {
+  font-weight: 800;
+  font-size: 0.8em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.row_25_light.row_25_light p {
+  font-weight: 500;
+  font-size: 0.95em;
+  color: #ffffff;
+  margin-top: 2%;
+}
+
+.row_25_light i {
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 0.5em;
+}
+
+.row_25_dark {
+  width: 25%;
+  background-color: #0f0f0f;
+  text-align: center;
+  padding: 2.5%;
+  margin-top: 2em;
+}
+
+.row_25_dark h3 {
+  font-weight: 800;
+  font-size: 0.8em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.row_25_dark.row_25_dark p {
+  font-weight: 500;
+  font-size: 0.95em;
+  color: #ffffff;
+  margin-top: 2%;
+}
+
+.row_25_dark i {
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 0.5em;
+}
+
+.div_row_33 {
+  display: flex;
+  width: 100%;
+}
+
+.row_33_light {
+  width: 33.3%;
+  background-color: #323BA3;
+  text-align: left;
+  padding: 3%;
+  margin-top: 2em;
+}
+
+.row_33_light.row_33_light p {
+  font-weight: 500;
+  font-size: 0.95em;
+  color: #ffffff;
+  margin-top: 2%;
+}
+
+.row_33_light h3 {
+  font-weight: 600;
+  font-size: 0.8em;
+  color: #ffffff;
+  margin-top: 0.5em;
+}
+
+.row_33_light i {
+  font-size: 0.9em;
+  color: #ffffff;
+}
+
+.row_33_light h4 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.row_33_light b {
+  font-weight: 700;
+}
+
+.row_33_dark {
+  width: 33.3%;
+  background-color: #0f0f0f;
+  text-align: left;
+  padding: 3%;
+  margin-top: 2em;
+}
+
+.row_33_dark.row_33_dark p {
+  font-weight: 500;
+  font-size: 0.95em;
+  color: #ffffff;
+  margin-top: 2%;
+}
+
+.row_33_dark h3 {
+  font-weight: 600;
+  font-size: 0.8em;
+  color: #ffffff;
+  margin-top: 0.5em;
+}
+
+.row_33_dark i {
+  font-size: 0.9em;
+  color: #ffffff;
+}
+
+.row_33_dark h4 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.row_33_dark b {
+  font-weight: 700;
+}
+
+.container_corpo {
+  padding: 5% 10%;
+  width: 100%;
+  float: left;
+  text-align: left;
+  height: auto;
+  background-color: #ffffff;
+  margin-top: 5%;
+}
+
+.container_corpo h1 {
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #323BA3;
+}
+
+.container_corpo h2 {
+  font-weight: 700;
+  font-size: 1.3em;
+  color: #323BA3;
+}
+
+.container_corpo p {
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #000000;
+  margin-top: 2%;
+  line-height: 150%;
+}
+
+.container_corpo p a {
+  color: #000000;
+  font-weight: 600;
+}
+
+.container_corpo p a:hover {
+  color: #323BA3;
+}
+
+.container_corpo p b {
+  font-weight: 600;
+  color: #323BA3;
+}
+
+.container_corpo p small {
+  font-weight: 600;
+  color: #252526;
+  font-size: 0.90em;
+}
+
+.scroll {
+  overflow: scroll;
+  height: 70vh;
+  margin-right: 5%;
+}
+
+.scroll_paragrafo p {
+  margin-right: 10%;
+  margin-top: 4%;
+}
+
+.scroller {
+  text-align: left;
+  width: 100%;
+  height: auto;
+  overflow-x: scroll;
+  display: flex;
+  box-sizing: border-box;
+  scroll-snap-type: x mandatory;
+}
+
+.scroller div {
+  flex: 0 0 33%;
+  width: 33%;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: end;
+  padding: 3%;
+}
+
+.scroller div p {
+  font-weight: 500;
+  font-size: 0.95em;
+  color: #ffffff;
+  margin-top: 2%;
+}
+
+.scroller div h3 {
+  font-weight: 600;
+  font-size: 0.85em;
+  color: #ffffff;
+  margin-top: 0.5em;
+  line-height: 150%;
+}
+
+.scroller div i {
+  font-size: 0.9em;
+  color: #ffffff;
+}
+
+.scroller div h4 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.scroller div b {
+  font-weight: 700;
+}
+
+.scroller div img {
+  height: auto;
+}
+
+.scroller div button {
+  width: 100%;
+  padding: 3%;
+  margin-top: 5%;
+  font-weight: 500;
+  font-size: 0.8em;
+  color: #ffffff;
+  background-color: transparent;
+  border: solid 1px transparent #ffffff;
+}
+
+.scroller div button:hover {
+  border: solid 1px transparent;
+  transition: all ease-in-out 200ms;
+  background-color: #000000;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+/* Landing-Page (Index.html) */
+.banner {
+  width: 100%;
+  padding: 3% 10%;
+  float: left;
+  width: 100% !important;
+  text-align: center;
+  /*height 100vh*/
+  height: 110vh;
+  height: calc(var(--vh, 1.1vh) * 100);
+  position: relative !important;
+}
+
+.banner.banner h2 {
+  color: #ffffff;
+  font-size: 2.6em;
+  font-weight: 700;
+}
+
+.banner.banner h3 {
+  color: #ffffff;
+  font-size: 1.41em;
+  height: 100%;
+  width: 100%;
+  font-weight: 350;
+}
+
+.banner.banner h3 b {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.banner.banner h3 a {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.banner.banner h3 a:hover {
+  transition: all ease-in-out 0.2s;
+  text-decoration: underline;
+}
+
+.banner.banner div {
+  margin-top: 15%;
+}
+
+.banner_section {
+  width: 100%;
+  padding: 3% 10%;
+  float: left;
+  text-align: center;
+  padding: 0% 0% 0% 0%;
+  /*height 100vh*/
+  height: 110vh;
+  height: calc(var(--vh, 1.1vh) * 100);
+  position: relative !important;
+}
+
+.banner_left {
+  width: 100%;
+  padding: 3% 10%;
+  float: left;
+  display: block;
+  padding: 0% 10%;
+  position: relative !important;
+  width: 55%;
+}
+
+.banner_right {
+  width: 100%;
+  padding: 3% 10%;
+  float: right;
+  display: block;
+  padding: 0% 10%;
+  position: relative !important;
+  width: 45%;
+}
+
+.light_banner {
+  height: 100%;
+  background: linear-gradient(90deg, #ffffff 90%, #323BA3 10%);
+}
+
+.light_banner a {
+  color: #000000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.light_banner a:hover {
+  text-decoration: underline;
+  color: #323BA3;
+  transition: all ease-in-out 0.2s;
+}
+
+.dark_banner {
+  height: 100%;
+  background-color: #000000;
+}
+
+.text_left {
+  text-align: left;
+  float: left;
+  padding-left: 10%;
+  color: #ffffff;
+}
+
+.text_left h1 {
+  font-size: 1.9em;
+  font-weight: 700;
+  margin-top: calc(var(--vh, 1.1vh) * 25);
+}
+
+.text_left p {
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+.text_right {
+  text-align: left;
+  float: left;
+  padding-left: 10%;
+  color: #000000;
+}
+
+.text_right h1 {
+  font-size: 1.9em;
+  font-weight: 700;
+  margin-top: calc(var(--vh, 1.1vh) * 25);
+}
+
+.text_right p {
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+.button_principal {
+  width: 100%;
+  background-color: #000000;
+  border: solid 1px #000000;
+  font-size: 1.25em;
+  border-radius: 8px;
+  border-bottom: solid 1px transparent;
+  padding: 1.3vh 30vh;
+  margin-top: 3vh;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.button_principal:hover {
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.button_banner {
+  width: 100%;
+  background-color: #323BA3;
+  border-bottom: solid 1px transparent;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: center;
+  float: left;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 1vh 0;
+  margin-top: 3vh;
+  color: #ffffff;
+}
+
+.button_banner:hover {
+  border: solid 1px #ffffff !important;
+  background: transparent !important;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+div .title {
+  width: 97%;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+  float: left;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.footer {
+  width: 100%;
+  padding: 3% 10%;
+  float: left;
+  background-color: #000000;
+  text-align: left;
+  /*height 46vh*/
+  height: 46vh;
+  height: calc(var(--vh, 0.46vh) * 100);
+}
+
+.footer div {
+  display: inline-flex;
+  width: 20%;
+}
+
+.footer div:last-child {
+  width: 10%;
+}
+
+.social-icons {
+  margin-top: 0%;
+  text-align: center !important;
+  display: inline-flex !important;
+}
+
+.social-icons.social-icons a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.6em;
+  margin-right: 2%;
+  width: 100%;
+}
+
+.social-icons.social-icons a:last-child {
+  margin-right: 0%;
+}
+
+.social-icons.social-icons a:hover {
+  color: #ffffff;
+  background-color: transparent;
+  transition: ease-in 0.2s;
+}
+
+.link_foo {
+  float: left;
+}
+
+.link_foo p {
+  color: #00a6d6;
+  font-size: 1em;
+  font-weight: 600;
+  text-align: left;
+  float: left;
+}
+
+.sub_link_foo {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.95em;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 1.7em;
+}
+
+.sub_link_foo:hover {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: all ease-in-out 0.2s;
+}
+
+.copyright {
+  width: 100%;
+  margin-top: 2%;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.95em;
+  font-weight: 500;
+  text-align: center !important;
+}
+
+.copyright b {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.contato {
+  width: 100%;
+  padding: 3% 10%;
+  float: left;
+  text-align: center;
+  position: relative !important;
+  background-color: #ffffff;
+  height: 110vh;
+  height: calc(var(--vh, 1.1vh) * 100);
+}
+
+.contato.contato h2 {
+  margin-top: 13%;
+  color: #000000;
+  font-size: 2.3em;
+  font-weight: 700;
+}
+
+.contato.contato h3 {
+  color: #000000;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.contato.contato form {
+  margin-top: 0%;
+}
+
+.contato.contato input {
+  width: 73vh;
+  color: #B9B9B9;
+  font-size: 1.4em;
+  background-color: transparent;
+  padding: 1.2vh 3%;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  border-bottom: solid 1px #B9B9B9;
+}
+
+.contato.contato input:focus {
+  color: #323BA3;
+  border-bottom: solid 1px #323BA3;
+  transition: all ease-in-out 0.2s;
+}
+
+.contato.contato img {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 0px;
+  left: 80%;
+  width: 20%;
+  margin-top: -27.5%;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.container {
+  width: 100%;
+  padding: 3% 10%;
+  float: left;
+}
+
+.column.column col-25 {
+  width: 25%;
+  float: center;
+}
+
+.column.column col-50 {
+  width: 50%;
+  float: center;
+}
+
+.column.column col-75 {
+  width: 75%;
+  float: center;
+}
+
+.column.column col-100 {
+  width: 100%;
+  float: center;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.c-dropdown {
+  color: #ffffff;
+  font-size: 1.09em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  list-style: none;
+  z-index: 1;
+  width: 100%;
+  height: 67px;
+  padding: 0.5% 10%;
+  right: 0;
+  display: flex;
+  position: fixed;
+  background: linear-gradient(180deg, #ffffff 50%, rgba(0, 0, 0, 0.95) 50%);
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.8);
+  border-bottom: solid 1px #000000;
+}
+
+.c-dropdown__item {
+  margin: 0 10px;
+  color: #ffffff;
+  font-size: 1em;
+  position: relative;
+  top: calc(100% - 23px);
+  float: right;
+  font-weight: 400;
+}
+
+.c-dropdown__item:hover {
+  color: #323BA3;
+  cursor: pointer;
+}
+
+.c-dropdown__item:hover .c-dropdown__submenu {
+  opacity: 1;
+  transform: rotateX(0) translateX(-50%);
+  transition-timing-function: ease-out;
+  border-bottom: solid 1px #000000;
+}
+
+.c-dropdown__item-title {
+  display: inline-flex;
+  pointer-events: none;
+}
+
+.c-dropdown__item-title::after {
+  border: rem(5) solid transparent;
+  content: "";
+  margin-left: rem(5);
+  transform: translateY(rem(8));
+}
+
+.c-dropdown__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.c-dropdown__link:hover {
+  text-decoration: underline;
+  color: #00a6d6;
+  transition: all ease-in-out 0.2s;
+}
+
+.c-dropdown p {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.c-dropdown p:hover {
+  text-decoration: underline;
+  color: #00a6d6;
+  transition: all ease-in-out 0.2s;
+}
+
+.c-dropdown__submenu {
+  background-color: rgba(0, 0, 0, 0.95);
+  border-radius: 0 0 8px 8px;
+  left: 148%;
+  list-style: none;
+  margin: 0;
+  opacity: 0.25;
+  padding: 1.29em;
+  position: absolute;
+  top: calc(100% - 1.3em);
+  border-top: solid 1px rgba(0, 0, 0, 0.9);
+  transform-origin: top center;
+  transform: translateX(-50%) rotateX(-90deg);
+  transition: all 200ms ease-in;
+  width: 350%;
+  height: auto;
+}
+
+.c-dropdown__submenu::after {
+  content: "";
+  position: absolute;
+  transform: translateX(-100%);
+}
+
+.c-dropdown__submenu-item {
+  text-align: left;
+}
+
+.c-dropdown__submenu-item:first-child {
+  margin-top: -10px;
+}
+
+.c-dropdown__submenu-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.c-dropdown__submenu-link {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.c-dropdown__submenu-link:hover {
+  text-decoration: underline;
+  color: #00a6d6;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.div_row {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.div_right_alternative {
+  float: right;
+  width: 40%;
+  padding-left: 2%;
+}
+
+.div_left_alternative {
+  float: left;
+  width: 60%;
+  padding-left: 10%;
+}
+
+.div_left_alternative a {
+  font-weight: 500;
+  font-size: 1.09em;
+  color: #000000;
+}
+
+.div_left_alternative a:hover {
+  color: #323BA3;
+}
+
+.border_left_alternative {
+  border-left: solid 3px #323BA3;
+}
+
+.links a {
+  font-weight: 500;
+  font-size: 1.1em;
+  color: #000000;
+}
+
+.links a:hover {
+  color: #323BA3 !important;
+}
+
+.container_iframe {
+  width: 100%;
+}
+
+.container_iframe summary:hover {
+  cursor: pointer;
+}
+
+.container_profissoes {
+  padding: 0% 10% 5% 10%;
+  width: 100%;
+  float: left;
+  text-align: left;
+  height: auto;
+  background-color: #ffffff;
+  margin-top: 5%;
+}
+
+.container_profissoes h1 {
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #323BA3;
+}
+
+.container_profissoes h2 {
+  font-weight: 700;
+  font-size: 1.3em;
+  color: #323BA3;
+}
+
+.container_profissoes p {
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #000000;
+  margin-top: 2%;
+  line-height: 150%;
+}
+
+.container_profissoes p a {
+  color: #000000;
+  font-weight: 600;
+}
+
+.container_profissoes p a:hover {
+  color: #323BA3;
+}
+
+.container_profissoes p b {
+  font-weight: 600;
+  color: #323BA3;
+}
+
+.container_profissoes p small {
+  font-weight: 600;
+  color: #252526;
+  font-size: 0.90em;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+/* Landing-Page (Index.html) */
+.banner {
+  width: 100%;
+  padding: 3% 10%;
+  float: left;
+  width: 100% !important;
+  text-align: center;
+  /*height 100vh*/
+  height: 110vh;
+  height: calc(var(--vh, 1.1vh) * 100);
+  position: relative !important;
+}
+
+.banner.banner h2 {
+  color: #ffffff;
+  font-size: 2.6em;
+  font-weight: 700;
+}
+
+.banner.banner h3 {
+  color: #ffffff;
+  font-size: 1.41em;
+  height: 100%;
+  width: 100%;
+  font-weight: 350;
+}
+
+.banner.banner h3 b {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.banner.banner h3 a {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.banner.banner h3 a:hover {
+  transition: all ease-in-out 0.2s;
+  text-decoration: underline;
+}
+
+.banner.banner div {
+  margin-top: 15%;
+}
+
+.banner_section {
+  width: 100%;
+  padding: 3% 10%;
+  float: left;
+  text-align: center;
+  padding: 0% 0% 0% 0%;
+  /*height 100vh*/
+  height: 110vh;
+  height: calc(var(--vh, 1.1vh) * 100);
+  position: relative !important;
+}
+
+.banner_left {
+  width: 100%;
+  padding: 3% 10%;
+  float: left;
+  display: block;
+  padding: 0% 10%;
+  position: relative !important;
+  width: 55%;
+}
+
+.banner_right {
+  width: 100%;
+  padding: 3% 10%;
+  float: right;
+  display: block;
+  padding: 0% 10%;
+  position: relative !important;
+  width: 45%;
+}
+
+.light_banner {
+  height: 100%;
+  background: linear-gradient(90deg, #ffffff 90%, #323BA3 10%);
+}
+
+.light_banner a {
+  color: #000000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.light_banner a:hover {
+  text-decoration: underline;
+  color: #323BA3;
+  transition: all ease-in-out 0.2s;
+}
+
+.dark_banner {
+  height: 100%;
+  background-color: #000000;
+}
+
+.text_left {
+  text-align: left;
+  float: left;
+  padding-left: 10%;
+  color: #ffffff;
+}
+
+.text_left h1 {
+  font-size: 1.9em;
+  font-weight: 700;
+  margin-top: calc(var(--vh, 1.1vh) * 25);
+}
+
+.text_left p {
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+.text_right {
+  text-align: left;
+  float: left;
+  padding-left: 10%;
+  color: #000000;
+}
+
+.text_right h1 {
+  font-size: 1.9em;
+  font-weight: 700;
+  margin-top: calc(var(--vh, 1.1vh) * 25);
+}
+
+.text_right p {
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+.button_principal {
+  width: 100%;
+  background-color: #000000;
+  border: solid 1px #000000;
+  font-size: 1.25em;
+  border-radius: 8px;
+  border-bottom: solid 1px transparent;
+  padding: 1.3vh 30vh;
+  margin-top: 3vh;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.button_principal:hover {
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.button_banner {
+  width: 100%;
+  background-color: #323BA3;
+  border-bottom: solid 1px transparent;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: center;
+  float: left;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 1vh 0;
+  margin-top: 3vh;
+  color: #ffffff;
+}
+
+.button_banner:hover {
+  border: solid 1px #ffffff !important;
+  background: transparent !important;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+div .title {
+  width: 97%;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+  float: left;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.footer {
+  width: 100%;
+  padding: 3% 10%;
+  float: left;
+  background-color: #000000;
+  text-align: left;
+  /*height 46vh*/
+  height: 46vh;
+  height: calc(var(--vh, 0.46vh) * 100);
+}
+
+.footer div {
+  display: inline-flex;
+  width: 20%;
+}
+
+.footer div:last-child {
+  width: 10%;
+}
+
+.social-icons {
+  margin-top: 0%;
+  text-align: center !important;
+  display: inline-flex !important;
+}
+
+.social-icons.social-icons a {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.6em;
+  margin-right: 2%;
+  width: 100%;
+}
+
+.social-icons.social-icons a:last-child {
+  margin-right: 0%;
+}
+
+.social-icons.social-icons a:hover {
+  color: #ffffff;
+  background-color: transparent;
+  transition: ease-in 0.2s;
+}
+
+.link_foo {
+  float: left;
+}
+
+.link_foo p {
+  color: #00a6d6;
+  font-size: 1em;
+  font-weight: 600;
+  text-align: left;
+  float: left;
+}
+
+.sub_link_foo {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.95em;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 1.7em;
+}
+
+.sub_link_foo:hover {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: all ease-in-out 0.2s;
+}
+
+.copyright {
+  width: 100%;
+  margin-top: 2%;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.95em;
+  font-weight: 500;
+  text-align: center !important;
+}
+
+.copyright b {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.contato {
+  width: 100%;
+  padding: 3% 10%;
+  float: left;
+  text-align: center;
+  position: relative !important;
+  background-color: #ffffff;
+  height: 110vh;
+  height: calc(var(--vh, 1.1vh) * 100);
+}
+
+.contato.contato h2 {
+  margin-top: 13%;
+  color: #000000;
+  font-size: 2.3em;
+  font-weight: 700;
+}
+
+.contato.contato h3 {
+  color: #000000;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.contato.contato form {
+  margin-top: 0%;
+}
+
+.contato.contato input {
+  width: 73vh;
+  color: #B9B9B9;
+  font-size: 1.4em;
+  background-color: transparent;
+  padding: 1.2vh 3%;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  border-bottom: solid 1px #B9B9B9;
+}
+
+.contato.contato input:focus {
+  color: #323BA3;
+  border-bottom: solid 1px #323BA3;
+  transition: all ease-in-out 0.2s;
+}
+
+.contato.contato img {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 0px;
+  left: 80%;
+  width: 20%;
+  margin-top: -27.5%;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.container {
+  width: 100%;
+  padding: 3% 10%;
+  float: left;
+}
+
+.column.column col-25 {
+  width: 25%;
+  float: center;
+}
+
+.column.column col-50 {
+  width: 50%;
+  float: center;
+}
+
+.column.column col-75 {
+  width: 75%;
+  float: center;
+}
+
+.column.column col-100 {
+  width: 100%;
+  float: center;
+}
+
+.wrapper {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(45deg, #323BA3, #0E57DF, #003699);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  background-size: 200% 100%;
+  animation: gradient_btn 2s linear infinite;
+  animation-direction: alternate;
+}
+
+.wrapper_btn:hover {
+  background: none;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+  background-color: #000000;
+  transition: all ease-in-out 0.2s;
+}
+
+.wrapper_text {
+  text-align: center;
+  background-image: linear-gradient(45deg, #00a6d6, #0E57DF, #323BA3, #003699);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient_text 10s linear infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_btn {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+@keyframes gradient_text {
+  0% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.c-dropdown {
+  color: #ffffff;
+  font-size: 1.09em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  list-style: none;
+  z-index: 1;
+  width: 100%;
+  height: 67px;
+  padding: 0.5% 10%;
+  right: 0;
+  display: flex;
+  position: fixed;
+  background: linear-gradient(180deg, #ffffff 50%, rgba(0, 0, 0, 0.95) 50%);
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.8);
+  border-bottom: solid 1px #000000;
+}
+
+.c-dropdown__item {
+  margin: 0 10px;
+  color: #ffffff;
+  font-size: 1em;
+  position: relative;
+  top: calc(100% - 23px);
+  float: right;
+  font-weight: 400;
+}
+
+.c-dropdown__item:hover {
+  color: #323BA3;
+  cursor: pointer;
+}
+
+.c-dropdown__item:hover .c-dropdown__submenu {
+  opacity: 1;
+  transform: rotateX(0) translateX(-50%);
+  transition-timing-function: ease-out;
+  border-bottom: solid 1px #000000;
+}
+
+.c-dropdown__item-title {
+  display: inline-flex;
+  pointer-events: none;
+}
+
+.c-dropdown__item-title::after {
+  border: rem(5) solid transparent;
+  content: "";
+  margin-left: rem(5);
+  transform: translateY(rem(8));
+}
+
+.c-dropdown__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.c-dropdown__link:hover {
+  text-decoration: underline;
+  color: #00a6d6;
+  transition: all ease-in-out 0.2s;
+}
+
+.c-dropdown p {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.c-dropdown p:hover {
+  text-decoration: underline;
+  color: #00a6d6;
+  transition: all ease-in-out 0.2s;
+}
+
+.c-dropdown__submenu {
+  background-color: rgba(0, 0, 0, 0.95);
+  border-radius: 0 0 8px 8px;
+  left: 148%;
+  list-style: none;
+  margin: 0;
+  opacity: 0.25;
+  padding: 1.29em;
+  position: absolute;
+  top: calc(100% - 1.3em);
+  border-top: solid 1px rgba(0, 0, 0, 0.9);
+  transform-origin: top center;
+  transform: translateX(-50%) rotateX(-90deg);
+  transition: all 200ms ease-in;
+  width: 350%;
+  height: auto;
+}
+
+.c-dropdown__submenu::after {
+  content: "";
+  position: absolute;
+  transform: translateX(-100%);
+}
+
+.c-dropdown__submenu-item {
+  text-align: left;
+}
+
+.c-dropdown__submenu-item:first-child {
+  margin-top: -10px;
+}
+
+.c-dropdown__submenu-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.c-dropdown__submenu-link {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.c-dropdown__submenu-link:hover {
+  text-decoration: underline;
+  color: #00a6d6;
+  transition: all ease-in-out 0.2s;
+}

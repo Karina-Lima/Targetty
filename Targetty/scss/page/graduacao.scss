@@ -1,0 +1,328 @@
+    // ==================== PÁGINA INDEX ==================== //
+    @import '../base/padrao.scss';
+    @import '../base/funcoes.scss';
+    //
+    .image_principal {
+        height: 100%;
+        height: calc(var(--vh, 1.1vh) * 100);
+        position: relative!important;
+        background: fixed no-repeat;
+    }
+    
+    .border_left {
+        border-left: solid 4px $magenta;
+    }
+    
+    .container_paragrafo {
+        padding: 5% 0%;
+        width: 100%;
+        float: left;
+        text-align: left;
+        height: 100vh;
+        background-color: $branco;
+        h3 {
+            font-weight: 700;
+            font-size: 1em;
+            color: $magenta;
+        }
+        h1 {
+            font-weight: 600;
+            font-size: 1.8em;
+            color: $preto;
+        }
+        h2 {
+            font-weight: 700;
+            font-size: 1.2em;
+            color: $magenta;
+        }
+        p {
+            font-weight: 500;
+            font-size: 1.1em;
+            line-height: 150%;
+            color: $preto;
+            margin-top: 2%;
+        }
+    }
+    
+    .div_right {
+        margin-left: -2%;
+        padding-left: 2%;
+        padding-right: 8%;
+        float: right;
+        width: 58%;
+        a {
+            font-weight: 500;
+            font-size: 1.09em;
+            color: $preto;
+            &:hover {
+                color: $magenta;
+            }
+        }
+    }
+    
+    .div_left {
+        float: left;
+        width: 42%;
+        border: none!important;
+    }
+    
+    .div_row {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    
+    .div_row_25 {
+        display: flex;
+        width: 100%;
+    }
+    
+    .row_25_light {
+        width: 25%;
+        background-color: $magenta;
+        text-align: center;
+        padding: 2.5%;
+        margin-top: 2em;
+        h3 {
+            font-weight: 800;
+            font-size: 0.8em;
+            color: $branco;
+            text-transform: uppercase;
+        }
+        &.row_25_light p {
+            font-weight: 500;
+            font-size: 0.95em;
+            color: $branco;
+            margin-top: 2%;
+        }
+        i {
+            font-size: 2em;
+            color: $branco;
+            margin-bottom: 0.5em;
+        }
+    }
+    
+    .row_25_dark {
+        width: 25%;
+        background-color: $cinza-escuro;
+        text-align: center;
+        padding: 2.5%;
+        margin-top: 2em;
+        h3 {
+            font-weight: 800;
+            font-size: 0.8em;
+            color: $branco;
+            text-transform: uppercase;
+        }
+        &.row_25_dark p {
+            font-weight: 500;
+            font-size: 0.95em;
+            color: $branco;
+            margin-top: 2%;
+        }
+        i {
+            font-size: 2em;
+            color: $branco;
+            margin-bottom: 0.5em;
+        }
+    }
+    
+    .div_row_33 {
+        display: flex;
+        width: 100%;
+    }
+    
+    .row_33_light {
+        width: 33.3%;
+        background-color: $magenta;
+        text-align: left;
+        padding: 3%;
+        margin-top: 2em;
+        &.row_33_light p {
+            font-weight: 500;
+            font-size: 0.95em;
+            color: $branco;
+            margin-top: 2%;
+        }
+        h3 {
+            font-weight: 600;
+            font-size: 0.8em;
+            color: $branco;
+            margin-top: 0.5em;
+        }
+        i {
+            font-size: 0.9em;
+            color: $branco;
+        }
+        h4 {
+            color: $branco;
+            font-weight: 700;
+            font-size: 1em;
+            text-transform: uppercase;
+        }
+        b {
+            font-weight: 700;
+        }
+    }
+    
+    .row_33_dark {
+        width: 33.3%;
+        background-color: $cinza-escuro;
+        text-align: left;
+        padding: 3%;
+        margin-top: 2em;
+        &.row_33_dark p {
+            font-weight: 500;
+            font-size: 0.95em;
+            color: $branco;
+            margin-top: 2%;
+        }
+        h3 {
+            font-weight: 600;
+            font-size: 0.8em;
+            color: $branco;
+            margin-top: 0.5em;
+        }
+        i {
+            font-size: 0.9em;
+            color: $branco;
+        }
+        h4 {
+            color: $branco;
+            font-weight: 700;
+            font-size: 1em;
+            text-transform: uppercase;
+        }
+        b {
+            font-weight: 700;
+        }
+    }
+    
+    .container_corpo {
+        padding: 5% 10%;
+        width: 100%;
+        float: left;
+        text-align: left;
+        height: auto;
+        background-color: $branco;
+        margin-top: 5%;
+        h1 {
+            font-weight: 700;
+            font-size: 1.5em;
+            color: $magenta;
+        }
+        h2 {
+            font-weight: 700;
+            font-size: 1.3em;
+            color: $magenta;
+        }
+        p {
+            font-weight: 400;
+            font-size: 1.1em;
+            color: $preto;
+            margin-top: 2%;
+            line-height: 150%;
+            a {
+                color: $preto;
+                font-weight: 600;
+                &:hover {
+                    color: $magenta;
+                }
+            }
+            b {
+                font-weight: 600;
+                color: $magenta;
+            }
+            small {
+                font-weight: 600;
+                color: $cinza-medio;
+                font-size: 0.90em;
+            }
+        }
+    }
+    
+    .scroll {
+        overflow: scroll;
+        height: 70vh;
+        margin-right: 5%;
+    }
+    
+    .scroll_paragrafo {
+        p {
+            margin-right: 10%;
+            margin-top: 4%;
+        }
+    }
+    
+    // Scroll Deitado
+    .scroller {
+        text-align: left;
+        width: 100%;
+        height: auto;
+        overflow-x: scroll;
+        display: flex;
+        box-sizing: border-box;
+        scroll-snap-type: x mandatory;
+        div {
+            flex: 0 0 33%;
+            width: 33%;
+            align-items: center;
+            justify-content: center;
+            scroll-snap-align: end;
+            padding: 3%;
+            p {
+                font-weight: 500;
+                font-size: 0.95em;
+                color: $branco;
+                margin-top: 2%;
+            }
+            h3 {
+                font-weight: 600;
+                font-size: 0.85em;
+                color: $branco;
+                margin-top: 0.5em;
+                line-height: 150%;
+            }
+            i {
+                font-size: 0.9em;
+                color: $branco;
+            }
+            h4 {
+                color: $branco;
+                font-weight: 700;
+                font-size: 1em;
+                text-transform: uppercase;
+            }
+            b {
+                font-weight: 700;
+            }
+            img {
+                height: auto;
+            }
+            button {
+                width: 100%;
+                padding: 3%;
+                margin-top: 5%;
+                font-weight: 500;
+                font-size: 0.8em;
+                color: $branco;
+                background-color: transparent;
+                border: solid 1px transparent$branco;
+                &:hover {
+                    border: solid 1px transparent;
+                    transition: all ease-in-out 200ms;
+                    background-color: $preto;
+                }
+            }
+        }
+    }
+    
+    //
+    //
+    //======================= ELEMENTOS_GERAIS_DA_INDEX ========================//
+    @import '../elements/banner.scss';
+    @import '../elements/footer.scss';
+    @import '../elements/contato.scss';
+    @import '../elements/container.scss';
+    //================== ESTILIZAÇÃO_DE_OUTROS_COMPONENTES ====================//
+    @import '../component/c-dropdown';

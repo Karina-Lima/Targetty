@@ -1,0 +1,51 @@
+@import '../base/padrao.scss';
+@import '../base/funcoes.scss';
+@import '../global/variables.scss';
+//
+//_ÁREA DE CONTATO
+.contato {
+    @include container(100%, left);
+    text-align: center;
+    position: relative!important;
+    background-color: $branco;
+    height: 110vh;
+    height: calc(var(--vh, 1.1vh) * 100);
+    &.contato h2 {
+        margin-top: 13%;
+        @include texto($preto, 2.3em);
+        font-weight: 700;
+    }
+    &.contato h3 {
+        @include texto($preto, 1.3em);
+        font-weight: 500;
+    }
+    &.contato form {
+        margin-top: 0%;
+    }
+    &.contato input {
+        width: 73vh;
+        @include texto($cinza, 1.4em);
+        background-color: transparent;
+        padding: 1.2vh 3%;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 3%;
+        border-bottom: solid 1px $cinza;
+    }
+    &.contato input:focus {
+        color: $magenta;
+        border-bottom: solid 1px $magenta;
+        transition: all ease-in-out 0.2s;
+    }
+    &.contato img {
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+        position: absolute;
+        bottom: 0px;
+        left: 80%;
+        width: 20%;
+        margin-top: -27.5%;
+    }
+}

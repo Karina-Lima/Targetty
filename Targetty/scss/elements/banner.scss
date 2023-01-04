@@ -1,0 +1,154 @@
+@import '../base/padrao.scss';
+@import '../base/funcoes.scss';
+@import '../global/variables.scss';
+//
+
+/* Landing-Page (Index.html) */
+
+.banner {
+    @include container(100%, left);
+    width: 100%!important;
+    text-align: center;
+    /*height 100vh*/
+    height: 110vh;
+    height: calc(var(--vh, 1.1vh) * 100);
+    position: relative!important;
+    &.banner h2 {
+        @include texto($branco, 2.6em);
+        font-weight: 700;
+    }
+    &.banner h3 {
+        @include texto($branco, 1.41em);
+        height: 100%;
+        width: 100%;
+        font-weight: 350;
+        & b {
+            font-weight: 600;
+            color: $branco;
+        }
+        & a {
+            font-weight: 600;
+            color: $branco;
+            &:hover {
+                transition: all ease-in-out 0.2s;
+                text-decoration: underline;
+            }
+        }
+    }
+    &.banner div {
+        margin-top: 15%;
+    }
+}
+
+.banner_section {
+    @include container(100%, left);
+    text-align: center;
+    padding: 0% 0% 0% 0%;
+    /*height 100vh*/
+    height: 110vh;
+    height: calc(var(--vh, 1.1vh) * 100);
+    position: relative!important;
+}
+
+.banner_left {
+    @include container(100%, left);
+    display: block;
+    padding: 0% 10%;
+    position: relative!important;
+    width: 55%;
+}
+
+.banner_right {
+    @include container(100%, right);
+    display: block;
+    padding: 0% 10%;
+    position: relative!important;
+    width: 45%;
+}
+
+.light_banner {
+    height: 100%;
+    background: linear-gradient(90deg, $branco 90%, $magenta 10%);
+    a {
+        color: $preto;
+        font-weight: 600;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+            color: $magenta;
+            transition: all ease-in-out 0.2s;
+        }
+    }
+}
+
+.dark_banner {
+    height: 100%;
+    background-color: $preto;
+}
+
+.text_left {
+    text-align: left;
+    float: left;
+    padding-left: 10%;
+    color: $branco;
+    & h1 {
+        font-size: 1.9em;
+        font-weight: 700;
+        margin-top: calc(var(--vh, 1.1vh) * 25);
+    }
+    & p {
+        font-size: 1.1em;
+        font-weight: 300;
+    }
+}
+
+.text_right {
+    text-align: left;
+    float: left;
+    padding-left: 10%;
+    color: $preto;
+    & h1 {
+        font-size: 1.9em;
+        font-weight: 700;
+        margin-top: calc(var(--vh, 1.1vh) * 25);
+    }
+    & p {
+        font-size: 1.1em;
+        font-weight: 300;
+    }
+}
+
+.button_principal {
+    @include btn_preto(100%, 1.25em);
+    font-weight: 400;
+}
+
+.button_banner {
+    width: 100%;
+    background-color: $magenta;
+    border-bottom: solid 1px transparent;
+    border: solid 1px $branco-opa;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+    float: left;
+    color: $branco-opa;
+    padding: 1vh 0;
+    margin-top: 3vh;
+    color: $branco;
+    &:hover {
+        border: solid 1px $branco !important;
+        background: transparent !important;
+        color: $branco;
+        cursor: pointer;
+        transition: all ease-in-out 0.2s;
+    }
+}
+
+div .title {
+    width: 97%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    float: left;
+}

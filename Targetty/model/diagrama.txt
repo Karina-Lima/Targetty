@@ -1,0 +1,3 @@
+diagrama: 
+
+(https://drawsql.app/teams/karina-antunes/diagrams/targetty)

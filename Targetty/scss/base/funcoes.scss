@@ -1,0 +1,67 @@
+    @import 'padrao.scss';
+    // FUNÇÕES GERAIS
+    //
+    @mixin container($width, $float) {
+        width: $width;
+        padding: 3% 10%;
+        float: $float;
+    }
+    
+    @mixin column($width, $float) {
+        width: $width;
+        float: $float;
+    }
+    
+    @mixin texto($color, $size) {
+        color: $color;
+        font-size: $size;
+    }
+    
+    // PRÉ DEFINICÇÕES PARA OS BOTÕES
+    //
+    @mixin btn_azul($width, $size) {
+        width: $width;
+        background-color: $azul;
+        border-radius: 8px;
+        font-size: $size;
+        color: $branco;
+        border-bottom: solid 1px transparent;
+        &:hover {
+            border: solid 1px $branco;
+            transition: all ease-in-out 0.2s;
+            cursor: pointer;
+        }
+    }
+    
+    @mixin btn_vazado($width, $size) {
+        width: $width;
+        background-color: transparent;
+        border-bottom: solid 1px transparent;
+        border: solid 1px $branco-opa;
+        border-radius: 8px;
+        font-size: $size;
+        color: $branco-opa;
+        &:hover {
+            border: solid 1px $branco;
+            color: $branco;
+            cursor: pointer;
+            transition: all ease-in-out 0.2s;
+        }
+    }
+    
+    @mixin btn_preto($width, $size) {
+        width: $width;
+        background-color: $preto;
+        border: solid 1px $preto;
+        font-size: $size;
+        border-radius: 8px;
+        border-bottom: solid 1px transparent;
+        padding: 1.3vh 30vh;
+        margin-top: 3vh;
+        color: $branco;
+        &:hover {
+            border: solid 1px $branco;
+            cursor: pointer;
+            transition: all ease-in-out 0.2s;
+        }
+    }
